@@ -5,6 +5,9 @@
   "description": "Calculates and displays the total duration of a YouTube playlist.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["*://*.youtube.com/*"],
+  "icons": {
+    "128": "icon.png"
+  },
   "action": {
     "default_popup": "index.html"
   },
